@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintLayout">
+
+    <Button
+        android:id="@+id/conNumDat"
+        android:text="."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingVertical="30dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/conNum1"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/conNumDat"
+        android:paddingVertical="30dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/conNum4"
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/conNum1"
+        android:paddingVertical="30dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/conNum7"
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/conNum4"
+        android:paddingVertical="30dp"
+        android:layout_marginLeft="25dp"/>
+
+
+
+    <Button
+        android:id="@+id/conNum0"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNumDat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingVertical="30dp"/>
+
+    <Button
+        android:id="@+id/conNum2"
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      app:layout_constraintLeft_toRightOf="@+id/conNum1"
+        app:layout_constraintBottom_toTopOf="@+id/conNum0"
+        android:paddingVertical="30dp"/>
+
+    <Button
+        android:id="@+id/conNum5"
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum4"
+        app:layout_constraintBottom_toTopOf="@+id/conNum2"
+        android:paddingVertical="30dp"/>
+
+    <Button
+        android:id="@+id/conNum8"
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum7"
+        app:layout_constraintBottom_toTopOf="@+id/conNum5"
+        android:paddingVertical="30dp"/>
+
+
+
+    <Button
+        android:id="@+id/conNum"
+        android:text="="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingVertical="30dp" />
+
+    <Button
+        android:id="@+id/conNum3"
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum2"
+        app:layout_constraintBottom_toTopOf="@+id/conNum"
+        android:paddingVertical="30dp"/>
+
+    <Button
+        android:id="@+id/conNum6"
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum5"
+        app:layout_constraintBottom_toTopOf="@+id/conNum3"
+        android:paddingVertical="30dp"/>
+
+    <Button
+        android:id="@+id/conNum9"
+        android:text="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum8"
+        app:layout_constraintBottom_toTopOf="@+id/conNum6"
+        android:paddingVertical="30dp"/>
+
+
+
+    <Button
+        android:id="@+id/conNumPlus"
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingVertical="22dp" />
+
+    <Button
+        android:id="@+id/conNumMinus"
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum3"
+        app:layout_constraintBottom_toTopOf="@+id/conNumPlus"
+        android:paddingVertical="22dp"/>
+
+    <Button
+        android:id="@+id/conNumMul"
+        android:text="*"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum6"
+        app:layout_constraintBottom_toTopOf="@+id/conNumMinus"
+        android:paddingVertical="22dp"/>
+
+    <Button
+        android:id="@+id/conNumDiv"
+        android:text="/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum9"
+        app:layout_constraintBottom_toTopOf="@+id/conNumMul"
+        android:paddingVertical="22dp"/>
+
+    <Button
+        android:id="@+id/conNumDel"
+        android:text="DEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/conNum9"
+        app:layout_constraintBottom_toTopOf="@+id/conNumDiv"
+        android:paddingVertical="22dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

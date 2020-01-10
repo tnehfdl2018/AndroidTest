@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/first_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="첫번째 숫자"
+            android:layout_margin="5dp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/calc_operator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연산자"
+            android:layout_margin="5dp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/second_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="두번째 숫자"
+            android:layout_margin="5dp"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/result_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="결과값"
+            android:textSize="20dp"
+            android:visibility="gone"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/result_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="계산하기"
+            android:layout_margin="5dp"
+            android:enabled="false"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>

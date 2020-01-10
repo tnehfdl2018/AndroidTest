@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="web"
+        android:onClick="mOnClick"/>
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dial"
+        android:onClick="mOnClick"/>
+
+    <Button
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="picture"
+        android:onClick="mOnClick"/>
+
+    <Button
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="other"
+        android:onClick="mOnClick"/>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <Button
+        android:id="@+id/num7"
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num4"
+        android:padding="40dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/num4"
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num1"
+        android:padding="40dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/num1"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num"
+        android:padding="40dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/num"
+        android:text="."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="40dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/num8"
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num5"
+        android:layout_toRightOf="@+id/num7"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num5"
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num2"
+        android:layout_toRightOf="@+id/num4"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num2"
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num0"
+        android:layout_toRightOf="@+id/num1"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num0"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/num"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num9"
+        android:text="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num5"
+        android:layout_toRightOf="@+id/num8"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num6"
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num2"
+        android:layout_toRightOf="@+id/num5"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num3"
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num0"
+        android:layout_toRightOf="@+id/num2"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/num10"
+        android:text="="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/num0"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/numPlus"
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/num10"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/numMinus"
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numPlus"
+        android:layout_toRightOf="@+id/num3"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/numMul"
+        android:text="*"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numMinus"
+        android:layout_toRightOf="@+id/num3"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/numDiv"
+        android:text="/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numMul"
+        android:layout_toRightOf="@+id/num6"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/numDel"
+        android:text="DEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numDiv"
+        android:layout_toRightOf="@+id/num9"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"/>
+
+
+</RelativeLayout>
