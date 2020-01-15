@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_trans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="0 ~ 200 이동"/>
+
+        <Button
+            android:id="@+id/btn_trans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="자기폭만큼"/>
+
+        <Button
+            android:id="@+id/btn_trans3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="부모폭만큼"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_rotate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="좌상단 기준"/>
+
+        <Button
+            android:id="@+id/btn_rotate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="중심 기준"/>
+
+        <Button
+            android:id="@+id/btn_rotate3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="부모 우하단 기준"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_scale1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="좌상단 확대"/>
+
+        <Button
+            android:id="@+id/btn_scale2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="중심 확대"/>
+
+        <Button
+            android:id="@+id/btn_scale3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="중심 축소"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_alpha1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="점점 밝게"/>
+
+        <Button
+            android:id="@+id/btn_alpha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="20sp"
+            android:text="점점 흐리게"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/anim_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"/>
+
+
+</LinearLayout>
