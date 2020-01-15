@@ -1,2 +1,2 @@
-include ':app', ':TestLayout', ':keypad', ':testsqlite', ':viewtest', ':lists', ':webviewtest', ':activitylifecycletest', ':testpreferences', ':dbtest', ':activitytest', ':intenttest', ':applicationtest', ':showdialog', ':eventtest', ':movecircle', ':longclick', ':calcurator', ':threadtest'
+include ':app', ':TestLayout', ':keypad', ':testsqlite', ':viewtest', ':lists', ':webviewtest', ':activitylifecycletest', ':testpreferences', ':dbtest', ':activitytest', ':intenttest', ':applicationtest', ':showdialog', ':eventtest', ':movecircle', ':longclick', ':calcurator', ':threadtest', ':fragmenttest', ':fragment', ':dpipxdp'
 rootProject.name='Test'

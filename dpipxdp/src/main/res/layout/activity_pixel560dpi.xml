@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="PIXEL 560dpi 페이지"
+        android:textSize="70px"/>
+
+    <Button
+        android:id="@+id/numdot"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="52.5px"
+        android:text="."/>
+
+    <Button
+        android:id="@+id/num0"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@id/numdot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="52.5px"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/numclear"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@+id/num0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="52.5px"
+        android:text="C"/>
+
+    <Button
+        android:id="@+id/num1"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/numdot"
+        android:layout_margin="52.5px"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/num2"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@id/num1"
+        app:layout_constraintBottom_toTopOf="@id/num0"
+        android:layout_margin="52.5px"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/num3"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@+id/num2"
+        app:layout_constraintBottom_toTopOf="@+id/numclear"
+        android:layout_margin="52.5px"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/num4"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/num1"
+        android:layout_margin="52.5px"
+        android:text="4"/>
+
+    <Button
+        android:id="@+id/num5"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@+id/num4"
+        app:layout_constraintBottom_toTopOf="@+id/num2"
+        android:layout_margin="52.5px"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/num6"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@+id/num5"
+        app:layout_constraintBottom_toTopOf="@+id/num3"
+        android:layout_margin="52.5px"
+        android:text="6"/>
+
+    <Button
+        android:id="@+id/num7"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/num4"
+        android:layout_margin="52.5px"
+        android:text="7"/>
+
+    <Button
+        android:id="@+id/num8"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@+id/num7"
+        app:layout_constraintBottom_toTopOf="@+id/num5"
+        android:layout_margin="52.5px"
+        android:text="8"/>
+
+    <Button
+        android:id="@+id/num9"
+        android:layout_width="315px"
+        android:layout_height="175px"
+        app:layout_constraintLeft_toRightOf="@+id/num8"
+        app:layout_constraintBottom_toTopOf="@+id/num6"
+        android:layout_margin="52.5px"
+        android:text="9"/>
+
+    <Button
+        android:id="@+id/numeq"
+        android:layout_width="262.5px"
+        android:layout_height="140px"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="63px"
+        android:layout_marginRight="70px"
+        android:text="="/>
+
+    <Button
+        android:id="@+id/numplus"
+        android:layout_width="262.5px"
+        android:layout_height="140px"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/numeq"
+        android:layout_marginBottom="35px"
+        android:layout_marginRight="70px"
+        android:text="+"/>
+
+    <Button
+        android:id="@+id/numminus"
+        android:layout_width="262.5px"
+        android:layout_height="140px"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/numplus"
+        android:layout_marginBottom="35px"
+        android:layout_marginRight="70px"
+        android:text="-"/>
+
+    <Button
+        android:id="@+id/nummul"
+        android:layout_width="262.5px"
+        android:layout_height="140px"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/numminus"
+        android:layout_marginBottom="35px"
+        android:layout_marginRight="70px"
+        android:text="*"/>
+
+    <Button
+        android:id="@+id/numdiv"
+        android:layout_width="262.5px"
+        android:layout_height="140px"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nummul"
+        android:layout_marginBottom="35px"
+        android:layout_marginRight="70px"
+        android:text="/"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

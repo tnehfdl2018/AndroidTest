@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아래 영역은 프래그먼트로 생성되었습니다."/>
+
+
+
+        <fragment
+            android:id="@+id/count_fragment"
+            android:name="com.letscombine.fragment.SaveFragmentState$CounterFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프래그먼트의 상태를 저장합니다."/>
+
+
+</LinearLayout>
