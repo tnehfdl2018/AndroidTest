@@ -26,17 +26,6 @@ public class LongTime extends AppCompatActivity {
         mHandler.sendEmptyMessage(0);
     }
 
-//    public void Update() {
-//        for (int i = 0; i < 100; i++) {
-//            mValue++;
-//            mText.setText(Integer.toString(mValue));
-//            try {
-//                Thread.sleep(50);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//    }
 
     Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
